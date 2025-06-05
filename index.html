@@ -3,10 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Managed IT and enterprise-level cybersecurity solutions for SMBs. Reliable IT support, cloud services, and data protection.">
+  <meta name="description" content="Managed IT and enterprise-level cybersecurity solutions for SMBs. Reliable IT support, cloud services, and data protection by Northshore Technologies.">
   <meta name="keywords" content="managed IT services, SMB cybersecurity, cloud solutions, IT support, data backup">
-  <meta name="author" content="TechGuard MSP">
-  <title>TechGuard MSP - IT & Cybersecurity Solutions for SMBs</title>
+  <meta name="author" content="Northshore Technologies">
+  <title>Northshore Technologies - IT & Cybersecurity Solutions for SMBs</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js"></script>
@@ -16,6 +16,7 @@
     .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
     .fade-in.visible { opacity: 1; transform: translateY(0); }
     .gradient-bg { background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); }
+    .logo-placeholder { width: 150px; height: 150px; background: #e5e7eb; display: flex; align-items: center; justify-content: center; border-radius: 8px; }
   </style>
 </head>
 <body>
@@ -43,8 +44,17 @@
           { className: 'container mx-auto px-4 py-4 flex justify-between items-center' },
           React.createElement(
             'div',
-            { className: 'text-2xl font-bold text-blue-900' },
-            'TechGuard MSP'
+            { className: 'flex items-center' },
+            React.createElement(
+              'div',
+              { className: 'logo-placeholder mr-2 text-gray-600 text-sm' },
+              'Logo Placeholder (Replace with northshore-technologies-logo.png)'
+            ),
+            React.createElement(
+              'div',
+              { className: 'text-2xl font-bold text-blue-900' },
+              'Northshore Technologies'
+            )
           ),
           React.createElement(
             'div',
@@ -120,7 +130,7 @@
           React.createElement(
             'p',
             { className: 'text-lg md:text-xl mb-6 fade-in' },
-            'Empowering small and medium-sized businesses with enterprise-grade managed IT services and cybersecurity.'
+            'Northstar Innovations: Empowering small and medium-sized businesses with enterprise-grade managed IT services and cybersecurity.'
           ),
           React.createElement(
             'a',
@@ -154,7 +164,8 @@
         },
         {
           title: 'Data Backup & Recovery',
-          description: 'Automated backups and disaster recovery plans to protect against data loss and ransomware.',
+          description: 'Automated backups and disaster recovery plans to protec
+t against data loss and ransomware.',
           icon: 'fas fa-database',
         },
         {
@@ -234,7 +245,7 @@
           React.createElement(
             'p',
             { className: 'text-lg text-gray-600 text-center mb-8 fade-in' },
-            'At TechGuard MSP, we deliver tailored IT and cybersecurity solutions for SMBs, backed by 24/7 support and certified experts.'
+            'At Northshore Technologies, we deliver tailored IT and cybersecurity solutions for SMBs, backed by 24/7 support and certified experts.'
           ),
           React.createElement(
             'h3',
@@ -275,7 +286,7 @@
     function Testimonials() {
       const testimonials = [
         {
-          quote: 'TechGuard transformed our IT infrastructure and protected us from cyber threats!',
+          quote: 'Northshore Technologies transformed our IT infrastructure and protected us from cyber threats!',
           author: 'Jane Smith',
           company: 'SMB Corp',
         },
@@ -450,7 +461,7 @@
                 'Map Placeholder'
               ),
               React.createElement('p', { className: 'text-gray-600 mb-2' }, React.createElement('strong', null, 'Phone:'), ' (123) 456-7890'),
-              React.createElement('p', { className: 'text-gray-600 mb-2' }, React.createElement('strong', null, 'Email:'), ' info@techguardmsp.com'),
+              React.createElement('p', { className: 'text-gray-600 mb-2' }, React.createElement('strong', null, 'Email:'), ' info@northshoretech.com'),
               React.createElement('p', { className: 'text-gray-600' }, React.createElement('strong', null, 'Address:'), ' 123 Main St, Tech City, TC 12345')
             ),
             React.createElement(
@@ -459,7 +470,7 @@
               React.createElement(
                 'div',
                 { className: 'mb-4' },
-                React.createElement('label', { className: 'block text-gray-700 mb-2', htmlFor: 'name' }, 'Name'),
+                React.createElement('label', { className:  'block text-gray-700 mb-2', htmlFor: 'name' }, 'Name'),
                 React.createElement('input', {
                   type: 'text',
                   name: 'name',
@@ -546,7 +557,7 @@
             React.createElement(
               'div',
               null,
-              React.createElement('h3', { className: 'text-lg font-semibold mb-4' }, 'TechGuard MSP'),
+              React.createElement('h3', { className: 'text-lg font-semibold mb-4' }, 'Northshore Technologies'),
               React.createElement('p', { className: 'text-gray-300' }, 'Your trusted partner for managed IT and cybersecurity solutions.')
             ),
             React.createElement(
@@ -592,7 +603,7 @@
           React.createElement(
             'p',
             { className: 'text-center text-gray-300 mt-8' },
-            '© 2025 TechGuard MSP. All Rights Reserved.'
+            '© 2025 Northshore Technologies. All Rights Reserved.'
           )
         )
       );
